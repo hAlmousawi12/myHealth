@@ -11,18 +11,16 @@ import SwiftUI
 struct SignUp: View {
     @State var user = User()
     @State var password = ""
+    @State var confirmPassword = ""
     @EnvironmentObject var env: FirebaseEnv
     var body: some View {
         Form{
-            TextField("first name", text: $user.firstName).keyboardType(.default)
-            TextField("last name", text: $user.lastName).keyboardType(.default)
-            TextField("email", text: $user.email).keyboardType(.emailAddress)
-            SecureField("password", text: $password)
-            Button("Sign up"){
-                env.signUp(user: user, password: password)
-            }
+            TextField("Enter your full name", text: $user.fullName)
+            TextField("Enter your email", text: $user.email)
+                .keyboardType(.emailAddress)
+            SecureField("Enter your password", text: $password)
+            SecureField("Confirm your password", text: $confirmPassword)
         }
-        .navigationTitle("Sign up")
     }
 }
 
