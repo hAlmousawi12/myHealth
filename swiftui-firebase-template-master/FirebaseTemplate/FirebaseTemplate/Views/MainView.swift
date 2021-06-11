@@ -12,7 +12,7 @@ struct MainView: View {
     @EnvironmentObject var env: FirebaseEnv
     var body: some View {
         if env.signedIn{
-            Home()
+            HomeView()
         }
         else{
             AuthenticationView()

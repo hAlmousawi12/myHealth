@@ -8,30 +8,18 @@
 
 import SwiftUI
 
-
 struct SignIn: View {
-    @State var userCredentials = SignInCredentials(email: "", password: "")
-    @EnvironmentObject var env: FirebaseEnv
-    @State var alertShown: Bool = false
-    @State var alertError: String = ""
+    @StateObject var vm = SignInViewModel()
     var body: some View {
         VStack(spacing: 15){
             
-            TextField("email", text: $userCredentials.email).keyboardType(.emailAddress)
-            SecureField("password", text: $userCredentials.password)
-            Button("Sign in"){
-                env.signIn(user: userCredentials) { (uid) in
-                    print("Signed in!")
-                } fail: { (error) in
-                    alertError = error.debugDescription
-                    alertShown = true 
-                }
-            }
+            TextField("email", text: $vm.userCredentials.email).keyboardType(.emailAddress)
+            SecureField("password", text: $vm.userCredentials.password)
+            Button("Sign in"){ vm.signIn() }
             NavigationLink("Don't have an account?", destination: SignIn())
         }
-        .navigationTitle("Sign in")
-        .alert(isPresented: $alertShown, content: {
-            Alert(title: Text("Error!"), message: Text(alertError), dismissButton: .cancel())
+        .alert(isPresented: $vm.alertShown, content: {
+            Alert(title: Text("Error!"), message: Text(vm.alertError), dismissButton: .cancel())
         })
         .padding()
     }

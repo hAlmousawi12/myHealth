@@ -9,6 +9,7 @@ struct MainApp: App {
     var body: some Scene {
         WindowGroup {
             MainView()
+                .accentColor(.black)
                 .environmentObject(FirebaseEnv())
         }
     }

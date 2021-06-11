@@ -6,4 +6,16 @@
 //  Copyright © 2021 OMAR. All rights reserved.
 //
 
-import Foundation
+import SwiftUI
+
+extension Color {
+    static let theme = ColorTheme()
+}
+
+struct ColorTheme {
+    
+    let red = Color("Red")
+    let secondary = Color("secondary")
+    
+}
+
