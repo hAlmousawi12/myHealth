@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		9754E992266E206C006B9CC7 /* SignUpExtesion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9754E991266E206C006B9CC7 /* SignUpExtesion.swift */; };
 		9754E994266E2094006B9CC7 /* TextFieldShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9754E993266E2094006B9CC7 /* TextFieldShape.swift */; };
+		97690A5F267AAAC000A735CC /* SignInExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97690A5E267AAAC000A735CC /* SignInExtension.swift */; };
+		97690A62267AD9A300A735CC /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97690A61267AD9A300A735CC /* ForgotPasswordView.swift */; };
+		97690A64267AD9F500A735CC /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97690A63267AD9F500A735CC /* ForgotPasswordViewModel.swift */; };
+		97690A66267ADC0600A735CC /* ButtonShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97690A65267ADC0600A735CC /* ButtonShape.swift */; };
+		97690A68267ADCED00A735CC /* ForgetPasswordExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97690A67267ADCED00A735CC /* ForgetPasswordExtension.swift */; };
 		976A21C4266D42C80085F3AE /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976A21C3266D42C80085F3AE /* SignUpViewModel.swift */; };
 		976A21C7266D4C410085F3AE /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976A21C6266D4C410085F3AE /* SignInViewModel.swift */; };
 		97F44A46266D1C8800BFF89C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97F44A45266D1C8800BFF89C /* GoogleService-Info.plist */; };
@@ -68,6 +73,11 @@
 		9377AE6CE82235456148A2D9 /* Pods-FirebaseTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.release.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		9754E991266E206C006B9CC7 /* SignUpExtesion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpExtesion.swift; sourceTree = "<group>"; };
 		9754E993266E2094006B9CC7 /* TextFieldShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldShape.swift; sourceTree = "<group>"; };
+		97690A5E267AAAC000A735CC /* SignInExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInExtension.swift; sourceTree = "<group>"; };
+		97690A61267AD9A300A735CC /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		97690A63267AD9F500A735CC /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
+		97690A65267ADC0600A735CC /* ButtonShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonShape.swift; sourceTree = "<group>"; };
+		97690A67267ADCED00A735CC /* ForgetPasswordExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordExtension.swift; sourceTree = "<group>"; };
 		976A21C3266D42C80085F3AE /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
 		976A21C6266D4C410085F3AE /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		97F44A45266D1C8800BFF89C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -180,6 +190,16 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		97690A60267AD97A00A735CC /* forgot pass */ = {
+			isa = PBXGroup;
+			children = (
+				97690A61267AD9A300A735CC /* ForgotPasswordView.swift */,
+				97690A63267AD9F500A735CC /* ForgotPasswordViewModel.swift */,
+				97690A67267ADCED00A735CC /* ForgetPasswordExtension.swift */,
+			);
+			path = "forgot pass";
+			sourceTree = "<group>";
+		};
 		976A21C2266D42800085F3AE /* Sign up */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +215,7 @@
 			children = (
 				D2C079AC259815F30053EDFD /* SignIn.swift */,
 				976A21C6266D4C410085F3AE /* SignInViewModel.swift */,
+				97690A5E267AAAC000A735CC /* SignInExtension.swift */,
 			);
 			path = "Sign In";
 			sourceTree = "<group>";
@@ -203,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				9754E993266E2094006B9CC7 /* TextFieldShape.swift */,
+				97690A65267ADC0600A735CC /* ButtonShape.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -241,6 +263,7 @@
 				D2C079C125981BDE0053EDFD /* AuthenticationView.swift */,
 				976A21C5266D4BDB0085F3AE /* Sign In */,
 				976A21C2266D42800085F3AE /* Sign up */,
+				97690A60267AD97A00A735CC /* forgot pass */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -493,12 +516,16 @@
 				D2C079D9259843330053EDFD /* OptionalState.swift in Sources */,
 				D2C2704B24662C68005E16A3 /* Optional.swift in Sources */,
 				D2C079A2259813E70053EDFD /* MainApp.swift in Sources */,
+				97690A64267AD9F500A735CC /* ForgotPasswordViewModel.swift in Sources */,
 				D2C2704924662C68005E16A3 /* Codable.swift in Sources */,
 				D2C2704724662C63005E16A3 /* ValidatePassword.swift in Sources */,
 				D2C079B2259816BD0053EDFD /* FirebaseEnv.swift in Sources */,
+				97690A62267AD9A300A735CC /* ForgotPasswordView.swift in Sources */,
+				97690A5F267AAAC000A735CC /* SignInExtension.swift in Sources */,
 				D2C079D6259841D10053EDFD /* ItemsEnv.swift in Sources */,
 				976A21C4266D42C80085F3AE /* SignUpViewModel.swift in Sources */,
 				D2C2704A24662C68005E16A3 /* Keyboard.swift in Sources */,
+				97690A68267ADCED00A735CC /* ForgetPasswordExtension.swift in Sources */,
 				D2C2704624662C63005E16A3 /* ImageUploader.swift in Sources */,
 				D2C079B6259818A20053EDFD /* SignUp.swift in Sources */,
 				976A21C7266D4C410085F3AE /* SignInViewModel.swift in Sources */,
@@ -513,6 +540,7 @@
 				D2C2704824662C63005E16A3 /* DateFromatter.swift in Sources */,
 				97F44A4A266D1DFA00BFF89C /* HomeView.swift in Sources */,
 				D2C2704F24662C73005E16A3 /* NetowrkableAuth.swift in Sources */,
+				97690A66267ADC0600A735CC /* ButtonShape.swift in Sources */,
 				D2C2704D24662C6E005E16A3 /* NetworkingImages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

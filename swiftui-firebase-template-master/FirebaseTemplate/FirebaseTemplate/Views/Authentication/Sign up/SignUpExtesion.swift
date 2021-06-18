@@ -169,11 +169,7 @@ extension SignUp {
     
     private var signUpButton: some View {
         Button("انشئ حساب") { vm.signUp() }
-            .frame(width: 250, height: 50)
-            .background(Color.theme.red)
-            .clipShape(Capsule())
-            .foregroundColor(.white)
-            .shadow(color: .black.opacity(0.2), radius: 10, x: 0, y: 0)
+            .modifier(ButtonShape())
     }
     
     var signUpPage: some View {
@@ -182,6 +178,9 @@ extension SignUp {
             signUpButton
                 .padding(.top, 25)
         }
+        .alert(isPresented: $vm.isAlertPresented, content: {
+            Alert(title: Text("Error!"), message: Text(vm.alertMessage), dismissButton: .default(Text("Okay!")))
+        })
     }
 }
 

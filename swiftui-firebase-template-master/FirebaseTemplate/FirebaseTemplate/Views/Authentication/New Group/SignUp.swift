@@ -13,9 +13,7 @@ struct SignUp: View {
     var body: some View {
         VStack {
             signUpPage
-        }.alert(isPresented: $vm.isAlertPresented, content: {
-            Alert(title: Text("Error!"), message: Text(vm.alertMessage), dismissButton: .default(Text("Okay!")))
-        })
+        }
     }
 }
 
