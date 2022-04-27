@@ -8,8 +8,10 @@ struct MainApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     var body: some Scene {
         WindowGroup {
-            MainView(info: delegate)
-                .accentColor(.black)
+            NavigationView {
+                MainView(info: delegate)
+                    .accentColor(.black)
+            }
         }
     }
 }

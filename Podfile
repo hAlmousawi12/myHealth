@@ -8,4 +8,5 @@ target 'FirebaseTemplate' do
   # Pods for FirebaseTemplate
   pod 'GoogleSignIn'
   pod 'FBSDKLoginKit'
+  pod 'FBSDKCoreKit'
 end

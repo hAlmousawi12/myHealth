@@ -12,6 +12,7 @@ import GoogleSignIn
 import Firebase
 
 class FirebaseEnv: ObservableObject{
+    var uid = Networking.getUserId()
     @Published var signedIn: Bool = (FirebaseAuth.Auth.auth().currentUser != nil)
     @Published var email = ""
     @Published var name = ""
@@ -24,6 +25,18 @@ class FirebaseEnv: ObservableObject{
     @Published var gotoVerify = false
     @AppStorage("log_Status") var status = false
     @Published var loading = false
+    @Published var user: User = User()
+    
+    func getUser() {
+        if let uid = uid {
+            Networking.getSingleDocument("users/\(uid)") { (user) in
+                self.user = user
+            }
+        } else {
+            print("something went wrong UID")
+        }
+        
+    }
     
     func getCountryCode() -> String {
         let regionCode = Locale.current.regionCode ?? ""

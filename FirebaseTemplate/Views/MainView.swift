@@ -15,13 +15,11 @@ struct MainView: View {
     }
     
     var body: some View {
-        NavigationView {
-            if env.signedIn || env.status {
-                Home(env: env)
-            }
-            else{
-                AuthenticationView(env: env)
-            }
+        if env.signedIn || env.status {
+            Home(env: env)
+        }
+        else{
+            AuthenticationView(env: env)
         }
     }
 }

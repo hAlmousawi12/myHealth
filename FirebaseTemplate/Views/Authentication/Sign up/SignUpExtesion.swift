@@ -160,7 +160,6 @@ extension SignUp {
             fullName
             phoneNumber
             gender
-//            birthdate
             civilId
             password
             confirmPassword
@@ -170,8 +169,19 @@ extension SignUp {
     private var signUpButton: some View {
         Button("انشئ حساب") {
             if vm.confirmPassword == vm.password {
-//                let a = Int(vm.user.civilIdNumber) ?? 0
-//                vm.user.birthDate = "\(a[0])"
+                let a = vm.user.civilIdNumber.digits
+                var year = ""
+                switch a[0] {
+                case 2: year = "19\(a[1])\(a[2])"
+                default:
+                    year = "20\(a[1])\(a[2])"
+                }
+                
+                
+                let monthy = "\(a[3])\(a[4])"
+                
+                let dayy = "\(a[5])\(a[6])"
+                vm.user.birthDate = "\(dayy)/\(monthy)/\(year)"
                 env.signUp(user: vm.user, password: vm.password)
             } else {
                 vm.isAlertPresented.toggle()
