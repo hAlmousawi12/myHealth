@@ -14,6 +14,8 @@
 		9738CBA7280DE8FC003E26B9 /* customNumberPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9738CBA6280DE8FC003E26B9 /* customNumberPad.swift */; };
 		9738CBA9280DEF25003E26B9 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9738CBA8280DEF25003E26B9 /* AlertView.swift */; };
 		9747459B268D087300CA3F3A /* AlertWithTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747459A268D087300CA3F3A /* AlertWithTextField.swift */; };
+		9761AC4328189FD900F7887D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9761AC4228189FD900F7887D /* LaunchScreen.storyboard */; };
+		9761AC462818A3E400F7887D /* Jomhuria-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9761AC452818A3E400F7887D /* Jomhuria-Regular.ttf */; };
 		9795774828187AAF00E31768 /* SignInExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795773E28187AAD00E31768 /* SignInExtension.swift */; };
 		9795774928187AAF00E31768 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795773F28187AAD00E31768 /* SignIn.swift */; };
 		9795774A28187AAF00E31768 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795774028187AAD00E31768 /* SignInViewModel.swift */; };
@@ -84,6 +86,8 @@
 		9738CBA6280DE8FC003E26B9 /* customNumberPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customNumberPad.swift; sourceTree = "<group>"; };
 		9738CBA8280DEF25003E26B9 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		9747459A268D087300CA3F3A /* AlertWithTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertWithTextField.swift; sourceTree = "<group>"; };
+		9761AC4228189FD900F7887D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9761AC452818A3E400F7887D /* Jomhuria-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jomhuria-Regular.ttf"; sourceTree = "<group>"; };
 		9795773E28187AAD00E31768 /* SignInExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInExtension.swift; sourceTree = "<group>"; };
 		9795773F28187AAD00E31768 /* SignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		9795774028187AAD00E31768 /* SignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
@@ -202,6 +206,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		9761AC442818A3D200F7887D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9761AC452818A3E400F7887D /* Jomhuria-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		9795773D28187AAD00E31768 /* Sign In */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,7 +324,9 @@
 				D2C2703E24662C5A005E16A3 /* Networking */,
 				D2C2703924662C5A005E16A3 /* Helpers */,
 				D2C2703524662C5A005E16A3 /* Extensions */,
+				9761AC442818A3D200F7887D /* Fonts */,
 				D2C26FD924662809005E16A3 /* Assets.xcassets */,
+				9761AC4228189FD900F7887D /* LaunchScreen.storyboard */,
 				D2C26FE124662809005E16A3 /* Info.plist */,
 				D2C26FDB24662809005E16A3 /* Preview Content */,
 			);
@@ -472,7 +486,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9761AC462818A3E400F7887D /* Jomhuria-Regular.ttf in Resources */,
 				D2C26FDD24662809005E16A3 /* Preview Assets.xcassets in Resources */,
+				9761AC4328189FD900F7887D /* LaunchScreen.storyboard in Resources */,
 				D2C26FDA24662809005E16A3 /* Assets.xcassets in Resources */,
 				9795775828187DAD00E31768 /* GoogleService-Info.plist in Resources */,
 			);

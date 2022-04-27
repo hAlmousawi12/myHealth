@@ -22,6 +22,10 @@ struct Home: View {
     @StateObject var env: FirebaseEnv
     @StateObject var itemsEnvironment = ItemsEnv()
     var body: some View {
-        SignOutButton(env: env)
+        VStack {
+            SignOutButton(env: env)
+        }.onAppear {
+            
+        }
     }
 }

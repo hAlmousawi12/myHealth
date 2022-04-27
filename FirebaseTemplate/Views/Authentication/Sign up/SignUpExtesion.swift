@@ -87,22 +87,22 @@ extension SignUp {
         }
     }
     
-    private var birthdate: some View {
-        VStack {
-            HStack {
-                Spacer()
-                Text("تاريخ الميلاد")
-                    .padding(.horizontal, 20)
-            }
-            HStack {
-                Image(systemName: "calendar")
-                    .foregroundColor(.theme.secondary)
-                DatePicker("اختر تاريخ ميلادك", selection: $vm.user.birthDate, in: ...Date(), displayedComponents: .date)
-                    .foregroundColor(.theme.secondary)
-            }.modifier(TextFieldShape())
-            
-        }
-    }
+//    private var birthdate: some View {
+//        VStack {
+//            HStack {
+//                Spacer()
+//                Text("تاريخ الميلاد")
+//                    .padding(.horizontal, 20)
+//            }
+//            HStack {
+//                Image(systemName: "calendar")
+//                    .foregroundColor(.theme.secondary)
+//                DatePicker("اختر تاريخ ميلادك", selection: $vm.user.birthDate, in: ...Date(), displayedComponents: .date)
+//                    .foregroundColor(.theme.secondary)
+//            }.modifier(TextFieldShape())
+//
+//        }
+//    }
     
     private var civilId: some View {
         VStack {
@@ -160,7 +160,7 @@ extension SignUp {
             fullName
             phoneNumber
             gender
-            birthdate
+//            birthdate
             civilId
             password
             confirmPassword
@@ -170,6 +170,8 @@ extension SignUp {
     private var signUpButton: some View {
         Button("انشئ حساب") {
             if vm.confirmPassword == vm.password {
+//                let a = Int(vm.user.civilIdNumber) ?? 0
+//                vm.user.birthDate = "\(a[0])"
                 env.signUp(user: vm.user, password: vm.password)
             } else {
                 vm.isAlertPresented.toggle()

@@ -9,8 +9,8 @@ struct User: Codable{
     var fullName: String = ""
     var email: String = ""
     var phoneNumber: String = ""
-    var gender: String = ""
-    var birthDate: Date = Date()
+    var gender: String = "ذكر"
+    var birthDate: String = ""
     var civilIdNumber: String = ""
 }
 
