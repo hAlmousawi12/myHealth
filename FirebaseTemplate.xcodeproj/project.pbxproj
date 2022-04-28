@@ -53,6 +53,7 @@
 		9795775428187AFE00E31768 /* TextFieldShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795775228187AFE00E31768 /* TextFieldShape.swift */; };
 		9795775628187B5D00E31768 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795775528187B5D00E31768 /* SignUp.swift */; };
 		9795775828187DAD00E31768 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9795775728187DAD00E31768 /* GoogleService-Info.plist */; };
+		97BA8AB3281B1A2E00939270 /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BA8AB2281B1A2E00939270 /* StepsView.swift */; };
 		97E701A0269B4FDB00CA288E /* LoginWithPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E7019F269B4FDB00CA288E /* LoginWithPhoneNumber.swift */; };
 		D2C079A2259813E70053EDFD /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C079A1259813E70053EDFD /* MainApp.swift */; };
 		D2C079B2259816BD0053EDFD /* FirebaseEnv.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C079B1259816BD0053EDFD /* FirebaseEnv.swift */; };
@@ -129,6 +130,7 @@
 		9795775228187AFE00E31768 /* TextFieldShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldShape.swift; sourceTree = "<group>"; };
 		9795775528187B5D00E31768 /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		9795775728187DAD00E31768 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		97BA8AB2281B1A2E00939270 /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
 		97E7019F269B4FDB00CA288E /* LoginWithPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithPhoneNumber.swift; sourceTree = "<group>"; };
 		B1FD124CAB9AE9745E818900 /* Pods-FirebaseTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		D2C079A1259813E70053EDFD /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
@@ -278,6 +280,7 @@
 				973A76D2281904D300008684 /* Search.swift */,
 				973A76D02819049000008684 /* SettingsView.swift */,
 				D2C079C625981C260053EDFD /* Home.swift */,
+				97BA8AB2281B1A2E00939270 /* StepsView.swift */,
 				D2C079C425981C1A0053EDFD /* Authentication */,
 			);
 			path = Views;
@@ -563,6 +566,7 @@
 				9747459B268D087300CA3F3A /* AlertWithTextField.swift in Sources */,
 				9795774B28187AAF00E31768 /* SignUpViewModel.swift in Sources */,
 				D2C079C725981C260053EDFD /* Home.swift in Sources */,
+				97BA8AB3281B1A2E00939270 /* StepsView.swift in Sources */,
 				D2C2705724662F3F005E16A3 /* Item.swift in Sources */,
 				D2C079D9259843330053EDFD /* OptionalState.swift in Sources */,
 				9795775628187B5D00E31768 /* SignUp.swift in Sources */,

@@ -40,28 +40,30 @@ struct Home: View {
             
             VStack(spacing: 50) {
                 
-                ZStack {
-                    RoundedRectangle(cornerRadius: 20)
-                        .stroke(lineWidth: 1)
-                    
-                    
-                    VStack(alignment: .trailing) {
-                        Text("الخطوات")
-                            .font(.title)
-                            .foregroundColor(.theme.secondary)
-                        HStack {
-                            Image(systemName: "figure.walk")
-                                .foregroundColor(.black)
-                            Text("خطوة")
-                                .foregroundColor(.theme.secondary)
+                NavigationLink(destination: StepsView(env: env), label: {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 20)
+                            .stroke(lineWidth: 1)
+                        
+                        
+                        VStack(alignment: .trailing) {
                             Text("الخطوات")
-                            .foregroundColor(.black)
-                            
+                                .font(.title)
+                                .foregroundColor(.theme.secondary)
+                            HStack {
+                                Image(systemName: "figure.walk")
+                                    .foregroundColor(.black)
+                                Text("خطوة")
+                                    .foregroundColor(.theme.secondary)
+                                Text("الخطوات")
+                                .foregroundColor(.black)
+                                
+                            }
                         }
+                        .frame(maxWidth: .infinity, alignment: .trailing)
+                        .padding(5)
                     }
-                    .frame(maxWidth: .infinity, alignment: .trailing)
-                    .padding(5)
-                }
+                })
                 .frame(width: 300, height: 90)
                 
                 ZStack {
