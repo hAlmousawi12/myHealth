@@ -1,0 +1,84 @@
+{
+  "Mac" : [
+    {
+      "hash" : "8dfcf6204966fe7076a9d69653e94185def9cfd321e26046b4f61790d8621ce4",
+      "name" : "FirebaseAuth",
+      "container" : "FirebaseAuth.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    },
+    {
+      "hash" : "35bd343bc91675c4ab52069adcc47c4533f5c37d22c790f514cb467fbbffbd12",
+      "name" : "GTMSessionFetcher",
+      "container" : "GTMSessionFetcher.xcframework",
+      "identifier" : "macos-arm64_x86_64"
+    }
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+    {
+      "hash" : "73479507eb32497498ff1ae561ad774937d846dd2b98c04f1f37ac974fca9bde",
+      "name" : "FirebaseAuth",
+      "container" : "FirebaseAuth.xcframework",
+      "identifier" : "tvos-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "4fbd8efb42c4a6c7b4d1be709e47fc644503944ba0bed4e5763d875141b8d5d1",
+      "name" : "FirebaseAuth",
+      "container" : "FirebaseAuth.xcframework",
+      "identifier" : "tvos-arm64"
+    },
+    {
+      "hash" : "6789ce97302b780b9967915d01e136f388f122ced030e99b0c8936317b1570f6",
+      "name" : "GTMSessionFetcher",
+      "container" : "GTMSessionFetcher.xcframework",
+      "identifier" : "tvos-arm64_x86_64-simulator"
+    },
+    {
+      "hash" : "f7e5d518807ee872e314bd8562ba8c8991327a1a48b73edb4c059ed9f7901428",
+      "name" : "GTMSessionFetcher",
+      "container" : "GTMSessionFetcher.xcframework",
+      "identifier" : "tvos-arm64"
+    }
+  ],
+  "commitish" : "8.15.0",
+  "iOS" : [
+    {
+      "hash" : "de1c6da4384c1c53b72d26cd4200938f5a3b3d7343728449b777510be7c1bd7d",
+      "name" : "FirebaseAuth",
+      "container" : "FirebaseAuth.xcframework",
+      "identifier" : "ios-arm64_x86_64-maccatalyst"
+    },
+    {
+      "hash" : "433e642dd04bebb53a04ddd6f2f406294bd562654458f8056b0cb78fc114c856",
+      "name" : "FirebaseAuth",
+      "container" : "FirebaseAuth.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "6695384968c29b0bee36c31cf021eec1889ec859e5d75eda66949853ab22e8ff",
+      "name" : "FirebaseAuth",
+      "container" : "FirebaseAuth.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    },
+    {
+      "hash" : "693bc8047651968b7da2201299ded67b38bb4e10001c22010401206f312c2196",
+      "name" : "GTMSessionFetcher",
+      "container" : "GTMSessionFetcher.xcframework",
+      "identifier" : "ios-arm64_x86_64-maccatalyst"
+    },
+    {
+      "hash" : "166d7cdc9c1d0487b41455567f942d07235eae908368046cd3800587850b7305",
+      "name" : "GTMSessionFetcher",
+      "container" : "GTMSessionFetcher.xcframework",
+      "identifier" : "ios-arm64_i386_x86_64-simulator"
+    },
+    {
+      "hash" : "11afa2b86c857e62974c421dba1e8be8617fca4c79fb5bc29831b8c7c04a42d3",
+      "name" : "GTMSessionFetcher",
+      "container" : "GTMSessionFetcher.xcframework",
+      "identifier" : "ios-arm64_armv7"
+    }
+  ]
+}

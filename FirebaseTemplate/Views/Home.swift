@@ -66,34 +66,36 @@ struct Home: View {
                 })
                 .frame(width: 300, height: 90)
                 
-                ZStack {
-                    RoundedRectangle(cornerRadius: 20)
-                        .stroke(lineWidth: 1)
-                    
-                    
-                    VStack(alignment: .trailing) {
-                        Text("جرعة الدواء الخاصة بك:")
-                            .font(.title)
-                            .foregroundColor(.theme.secondary)
-                        HStack {
-                            Image(systemName: "pills.fill")
-                                .foregroundColor(.black)
-                            VStack {
-                                Text("6")
-                                    .frame(width: 25, height: 25)
-                                Text("الباقي")
-                            }.foregroundColor(.theme.secondary)
-                            VStack {
-                                Text("4")
-                                    .frame(width: 25, height: 25)
-                                Text("انتهاء")
+                NavigationLink(destination: MedicenView(env: env), label: {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 20)
+                            .stroke(lineWidth: 1)
+                        
+                        
+                        VStack(alignment: .trailing) {
+                            Text("جرعة الدواء الخاصة بك:")
+                                .font(.title)
+                                .foregroundColor(.theme.secondary)
+                            HStack {
+                                Image(systemName: "pills.fill")
+                                    .foregroundColor(.black)
+                                VStack {
+                                    Text("6")
+                                        .frame(width: 25, height: 25)
+                                    Text("الباقي")
+                                }.foregroundColor(.theme.secondary)
+                                VStack {
+                                    Text("4")
+                                        .frame(width: 25, height: 25)
+                                    Text("انتهاء")
+                                }
+                                .foregroundColor(.theme.secondary)
                             }
-                            .foregroundColor(.theme.secondary)
                         }
+                        .frame(maxWidth: .infinity, alignment: .trailing)
+                        .padding(5)
                     }
-                    .frame(maxWidth: .infinity, alignment: .trailing)
-                    .padding(5)
-                }
+                })
                 .frame(width: 300, height: 110)
                 
                 ZStack {

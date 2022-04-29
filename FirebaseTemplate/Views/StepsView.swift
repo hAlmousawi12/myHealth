@@ -28,14 +28,14 @@ struct StepsView: View {
             Image("chart")
                 .resizable()
                 .scaledToFit()
-                .frame(width: .infinity, height: 100)
+                .frame(width: 350, height: 350)
             Spacer()
         }
     }
 }
 
-struct StepsView_Previews: PreviewProvider {
-    static var previews: some View {
-        StepsView()
-    }
-}
+//struct StepsView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        StepsView()
+//    }
+//}
