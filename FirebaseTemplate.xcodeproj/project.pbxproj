@@ -38,6 +38,7 @@
 		973C15FA281BFCA800BAAF31 /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973C15E5281BFCA700BAAF31 /* leveldb-library.framework */; };
 		973C15FB281BFCA800BAAF31 /* FirebaseStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 973C15E6281BFCA800BAAF31 /* FirebaseStorage.framework */; };
 		973C15FD281BFDCC00BAAF31 /* MedicenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C15FC281BFDCC00BAAF31 /* MedicenView.swift */; };
+		973C15FF281C019100BAAF31 /* WaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973C15FE281C019100BAAF31 /* WaterView.swift */; };
 		9747459B268D087300CA3F3A /* AlertWithTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9747459A268D087300CA3F3A /* AlertWithTextField.swift */; };
 		9761AC4328189FD900F7887D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9761AC4228189FD900F7887D /* LaunchScreen.storyboard */; };
 		9761AC462818A3E400F7887D /* Jomhuria-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9761AC452818A3E400F7887D /* Jomhuria-Regular.ttf */; };
@@ -54,6 +55,8 @@
 		9795775428187AFE00E31768 /* TextFieldShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795775228187AFE00E31768 /* TextFieldShape.swift */; };
 		9795775628187B5D00E31768 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9795775528187B5D00E31768 /* SignUp.swift */; };
 		9795775828187DAD00E31768 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9795775728187DAD00E31768 /* GoogleService-Info.plist */; };
+		97A0A52C281C815600CC69FB /* PagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A0A52B281C815600CC69FB /* PagesView.swift */; };
+		97A0A52E281C816200CC69FB /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A0A52D281C816200CC69FB /* TabBarView.swift */; };
 		97BA8AB3281B1A2E00939270 /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BA8AB2281B1A2E00939270 /* StepsView.swift */; };
 		97E701A0269B4FDB00CA288E /* LoginWithPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E7019F269B4FDB00CA288E /* LoginWithPhoneNumber.swift */; };
 		D2C079A2259813E70053EDFD /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C079A1259813E70053EDFD /* MainApp.swift */; };
@@ -116,6 +119,7 @@
 		973C15E5281BFCA700BAAF31 /* leveldb-library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "leveldb-library.framework"; sourceTree = "<group>"; };
 		973C15E6281BFCA800BAAF31 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseStorage.framework; sourceTree = "<group>"; };
 		973C15FC281BFDCC00BAAF31 /* MedicenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicenView.swift; sourceTree = "<group>"; };
+		973C15FE281C019100BAAF31 /* WaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterView.swift; sourceTree = "<group>"; };
 		9747459A268D087300CA3F3A /* AlertWithTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertWithTextField.swift; sourceTree = "<group>"; };
 		9761AC4228189FD900F7887D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9761AC452818A3E400F7887D /* Jomhuria-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Jomhuria-Regular.ttf"; sourceTree = "<group>"; };
@@ -132,6 +136,8 @@
 		9795775228187AFE00E31768 /* TextFieldShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldShape.swift; sourceTree = "<group>"; };
 		9795775528187B5D00E31768 /* SignUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		9795775728187DAD00E31768 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		97A0A52B281C815600CC69FB /* PagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesView.swift; sourceTree = "<group>"; };
+		97A0A52D281C816200CC69FB /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		97BA8AB2281B1A2E00939270 /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
 		97E7019F269B4FDB00CA288E /* LoginWithPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithPhoneNumber.swift; sourceTree = "<group>"; };
 		B1FD124CAB9AE9745E818900 /* Pods-FirebaseTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -279,11 +285,14 @@
 			isa = PBXGroup;
 			children = (
 				D2C079BD259819FD0053EDFD /* MainView.swift */,
+				97A0A52D281C816200CC69FB /* TabBarView.swift */,
 				973A76D2281904D300008684 /* Search.swift */,
 				973A76D02819049000008684 /* SettingsView.swift */,
 				D2C079C625981C260053EDFD /* Home.swift */,
 				97BA8AB2281B1A2E00939270 /* StepsView.swift */,
 				973C15FC281BFDCC00BAAF31 /* MedicenView.swift */,
+				973C15FE281C019100BAAF31 /* WaterView.swift */,
+				97A0A52B281C815600CC69FB /* PagesView.swift */,
 				D2C079C425981C1A0053EDFD /* Authentication */,
 			);
 			path = Views;
@@ -573,6 +582,7 @@
 				97BA8AB3281B1A2E00939270 /* StepsView.swift in Sources */,
 				D2C2705724662F3F005E16A3 /* Item.swift in Sources */,
 				D2C079D9259843330053EDFD /* OptionalState.swift in Sources */,
+				973C15FF281C019100BAAF31 /* WaterView.swift in Sources */,
 				9795775628187B5D00E31768 /* SignUp.swift in Sources */,
 				9795774D28187AAF00E31768 /* ForgetPasswordExtension.swift in Sources */,
 				D2C2704B24662C68005E16A3 /* Optional.swift in Sources */,
@@ -594,9 +604,11 @@
 				973A76CF281903D900008684 /* Header.swift in Sources */,
 				9738CBA7280DE8FC003E26B9 /* customNumberPad.swift in Sources */,
 				9705F5AB2807C8FD007F1BD1 /* Color.swift in Sources */,
+				97A0A52E281C816200CC69FB /* TabBarView.swift in Sources */,
 				D2C2704624662C63005E16A3 /* ImageUploader.swift in Sources */,
 				9795774828187AAF00E31768 /* SignInExtension.swift in Sources */,
 				D2C2705224662C9A005E16A3 /* User.swift in Sources */,
+				97A0A52C281C815600CC69FB /* PagesView.swift in Sources */,
 				D2C079C225981BDE0053EDFD /* AuthenticationView.swift in Sources */,
 				9795774C28187AAF00E31768 /* SignUpExtesion.swift in Sources */,
 				D2C2705024662C73005E16A3 /* NetworkingSignUp.swift in Sources */,
@@ -731,6 +743,7 @@
 			baseConfigurationReference = B1FD124CAB9AE9745E818900 /* Pods-FirebaseTemplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FirebaseTemplate/Preview Content\"";
 				DEVELOPMENT_TEAM = C89Y3B6NMY;
@@ -741,7 +754,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = FirebaseTemplate/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -765,6 +778,7 @@
 			baseConfigurationReference = 9377AE6CE82235456148A2D9 /* Pods-FirebaseTemplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FirebaseTemplate/Preview Content\"";
 				DEVELOPMENT_TEAM = C89Y3B6NMY;
@@ -775,7 +789,7 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = FirebaseTemplate/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

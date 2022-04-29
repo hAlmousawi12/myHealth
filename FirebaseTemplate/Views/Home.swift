@@ -98,27 +98,29 @@ struct Home: View {
                 })
                 .frame(width: 300, height: 110)
                 
-                ZStack {
-                    RoundedRectangle(cornerRadius: 20)
-                        .stroke(lineWidth: 1)
-                    
-                    
-                    VStack(alignment: .trailing) {
-                        Text("الماء:")
-                            .font(.title)
-                            .foregroundColor(.theme.secondary)
-                        Text("50٪")
-                            .font(.title)
-                            .foregroundColor(.theme.secondary)
-                        HStack {
-                            Image(systemName: "cup.and.saucer")
-                            Text("1.5ل من 3ل")
-                                .font(.title2)
-                        }.foregroundColor(.theme.secondary)
+                NavigationLink(destination: WaterView(env: env), label: {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 20)
+                            .stroke(lineWidth: 1)
+                        
+                        
+                        VStack(alignment: .trailing) {
+                            Text("الماء:")
+                                .font(.title)
+                                .foregroundColor(.theme.secondary)
+                            Text("50٪")
+                                .font(.title)
+                                .foregroundColor(.theme.secondary)
+                            HStack {
+                                Image(systemName: "cup.and.saucer")
+                                Text("1.5ل من 3ل")
+                                    .font(.title2)
+                            }.foregroundColor(.theme.secondary)
+                        }
+                        .frame(maxWidth: .infinity, alignment: .trailing)
+                        .padding(5)
                     }
-                    .frame(maxWidth: .infinity, alignment: .trailing)
-                    .padding(5)
-                }
+                })
                 .frame(width: 300, height: 110)
                 
             }

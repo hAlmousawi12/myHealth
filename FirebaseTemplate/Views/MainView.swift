@@ -16,7 +16,8 @@ struct MainView: View {
     
     var body: some View {
         if env.signedIn || env.status {
-            Home(env: env)
+            TabBarView(env: env)
+                .navigationBarHidden(true)
         }
         else{
             AuthenticationView(env: env)

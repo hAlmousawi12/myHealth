@@ -11,6 +11,13 @@ struct MainApp: App {
             NavigationView {
                 MainView(info: delegate)
                     .accentColor(.black)
+                    .onAppear {
+                        if #available(iOS 15.0, *) {
+                            let tabBarAppearance = UITabBarAppearance()
+                            tabBarAppearance.configureWithDefaultBackground()
+                            UITabBar.appearance().scrollEdgeAppearance = tabBarAppearance
+                        }
+                    }
             }
         }
     }
