@@ -57,6 +57,10 @@
 		9795775828187DAD00E31768 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9795775728187DAD00E31768 /* GoogleService-Info.plist */; };
 		97A0A52C281C815600CC69FB /* PagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A0A52B281C815600CC69FB /* PagesView.swift */; };
 		97A0A52E281C816200CC69FB /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A0A52D281C816200CC69FB /* TabBarView.swift */; };
+		97A0A530281CB2AF00CC69FB /* PharmacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A0A52F281CB2AF00CC69FB /* PharmacyView.swift */; };
+		97A0A532281CB30000CC69FB /* EstisharaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A0A531281CB30000CC69FB /* EstisharaView.swift */; };
+		97A0A534281CB32400CC69FB /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A0A533281CB32400CC69FB /* FavoriteView.swift */; };
+		97A0A536281CB35900CC69FB /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97A0A535281CB35900CC69FB /* CartView.swift */; };
 		97BA8AB3281B1A2E00939270 /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BA8AB2281B1A2E00939270 /* StepsView.swift */; };
 		97E701A0269B4FDB00CA288E /* LoginWithPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E7019F269B4FDB00CA288E /* LoginWithPhoneNumber.swift */; };
 		D2C079A2259813E70053EDFD /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C079A1259813E70053EDFD /* MainApp.swift */; };
@@ -138,6 +142,10 @@
 		9795775728187DAD00E31768 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		97A0A52B281C815600CC69FB /* PagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesView.swift; sourceTree = "<group>"; };
 		97A0A52D281C816200CC69FB /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		97A0A52F281CB2AF00CC69FB /* PharmacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PharmacyView.swift; sourceTree = "<group>"; };
+		97A0A531281CB30000CC69FB /* EstisharaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstisharaView.swift; sourceTree = "<group>"; };
+		97A0A533281CB32400CC69FB /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
+		97A0A535281CB35900CC69FB /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		97BA8AB2281B1A2E00939270 /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
 		97E7019F269B4FDB00CA288E /* LoginWithPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithPhoneNumber.swift; sourceTree = "<group>"; };
 		B1FD124CAB9AE9745E818900 /* Pods-FirebaseTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -293,6 +301,10 @@
 				973C15FC281BFDCC00BAAF31 /* MedicenView.swift */,
 				973C15FE281C019100BAAF31 /* WaterView.swift */,
 				97A0A52B281C815600CC69FB /* PagesView.swift */,
+				97A0A52F281CB2AF00CC69FB /* PharmacyView.swift */,
+				97A0A531281CB30000CC69FB /* EstisharaView.swift */,
+				97A0A533281CB32400CC69FB /* FavoriteView.swift */,
+				97A0A535281CB35900CC69FB /* CartView.swift */,
 				D2C079C425981C1A0053EDFD /* Authentication */,
 			);
 			path = Views;
@@ -571,6 +583,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2C2704C24662C6E005E16A3 /* Networking.swift in Sources */,
+				97A0A534281CB32400CC69FB /* FavoriteView.swift in Sources */,
+				97A0A536281CB35900CC69FB /* CartView.swift in Sources */,
 				9795775328187AFE00E31768 /* ButtonShape.swift in Sources */,
 				973A76D3281904D300008684 /* Search.swift in Sources */,
 				D2C079BE259819FD0053EDFD /* MainView.swift in Sources */,
@@ -605,6 +619,7 @@
 				9738CBA7280DE8FC003E26B9 /* customNumberPad.swift in Sources */,
 				9705F5AB2807C8FD007F1BD1 /* Color.swift in Sources */,
 				97A0A52E281C816200CC69FB /* TabBarView.swift in Sources */,
+				97A0A532281CB30000CC69FB /* EstisharaView.swift in Sources */,
 				D2C2704624662C63005E16A3 /* ImageUploader.swift in Sources */,
 				9795774828187AAF00E31768 /* SignInExtension.swift in Sources */,
 				D2C2705224662C9A005E16A3 /* User.swift in Sources */,
@@ -617,6 +632,7 @@
 				9795774A28187AAF00E31768 /* SignInViewModel.swift in Sources */,
 				9795774928187AAF00E31768 /* SignIn.swift in Sources */,
 				D2C2704F24662C73005E16A3 /* NetowrkableAuth.swift in Sources */,
+				97A0A530281CB2AF00CC69FB /* PharmacyView.swift in Sources */,
 				D2C2704D24662C6E005E16A3 /* NetworkingImages.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

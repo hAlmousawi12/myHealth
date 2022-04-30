@@ -56,7 +56,7 @@ struct Home: View {
                                 Text("خطوة")
                                     .foregroundColor(.theme.secondary)
                                 Text("الخطوات")
-                                .foregroundColor(.black)
+                                    .foregroundColor(.black)
                                 
                             }
                         }
@@ -127,6 +127,8 @@ struct Home: View {
             Spacer()
         }
         .onAppear(perform: env.getUser)
+        .navigationBarTitle("") 
         .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
     }
 }

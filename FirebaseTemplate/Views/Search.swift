@@ -24,11 +24,8 @@ struct Search: View {
                 }
             }
         }
-    }
-}
-
-struct Search_Previews: PreviewProvider {
-    static var previews: some View {
-        Search()
+        .navigationBarTitle("")
+        .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
     }
 }
